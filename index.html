@@ -123,8 +123,8 @@
           </button>
     
           <!-- 其他分类按钮 -->
-          //<button class="filter-btn bg-neutral-100 hover:bg-neutral-200 px-4 py-2 rounded-full text-sm transition-all shadow-sm" data-category="办公用品"></button>
-          //<button class="filter-btn bg-neutral-100 hover:bg-neutral-200 px-4 py-2 rounded-full text-sm transition-all shadow-sm" data-category="运动器材"></button>
+          <button class="filter-btn bg-neutral-100 hover:bg-neutral-200 px-4 py-2 rounded-full text-sm transition-all shadow-sm" data-category=""></button>
+          <button class="filter-btn bg-neutral-100 hover:bg-neutral-200 px-4 py-2 rounded-full text-sm transition-all shadow-sm" data-category=""></button>
         </div>
     
         <!-- ✅ 排序方式 -->
@@ -141,7 +141,7 @@
         <!-- ✅ 卡皮巴拉下拉菜单（脱离按钮区，避免遮挡） -->
         <div id="dropdown-menu" class="absolute bg-white border border-neutral-200 rounded-md shadow-md w-32 text-sm text-neutral-600 z-50 hidden">
           <button class="block w-full text-left px-4 py-2 hover:bg-neutral-100 transition-all" data-subcategory="毛绒公仔">毛绒公仔</button>
-          <button class="block w-full text-left px-4 py-2 hover:bg-neutral-100 transition-all" data-subcategory="毛绒挂件">毛绒挂件</button>
+          <button class="block w-full text-left px-4 py-2 hover:bg-neutral-100 transition-all" data-subcategory="钥匙扣">钥匙扣</button>
         </div>
     
         <!-- ✅ 捏捏下拉菜单（脱离按钮区，避免遮挡） -->
@@ -276,8 +276,8 @@
           <ul class="space-y-2">
             <li><a href="#" class="text-neutral-400 hover:text-white transition-colors scale-hover">卡皮巴拉</a></li>
             <li><a href="#" class="text-neutral-400 hover:text-white transition-colors scale-hover">捏捏</a></li>
-            //<li><a href="#" class="text-neutral-400 hover:text-white transition-colors scale-hover">办公用品</a></li>
-            //<li><a href="#" class="text-neutral-400 hover:text-white transition-colors scale-hover">运动器材</a></li>
+            <li><a href="#" class="text-neutral-400 hover:text-white transition-colors scale-hover"></a></li>
+            <li><a href="#" class="text-neutral-400 hover:text-white transition-colors scale-hover"></a></li>
           </ul>
         </div>
         <div>
@@ -409,12 +409,47 @@
         ],
         category: "卡皮巴拉",
         subCategory: null,
-        description: "1440peças",
+        description: "144peças",
+        features: [
+        
+        ],
+        tags: []
+      },
+      {
+        id: 7,
+        productCode: "JF-214",
+        name: "卡皮巴拉背包",
+        price: 2999,
+        images: [
+          "images/卡皮巴拉背包.jpg",
+        ],
+        category: "卡皮巴拉",
+        subCategory: null,
+        description: "120peças",
+        features: [
+        
+        ],
+        tags: []
+      },
+      {
+        id: 8,
+        productCode: "JF-180",
+        name: "卡皮巴拉啪啪圈",
+        price: 2999,
+        images: [
+          "images/卡皮巴拉啪啪圈.jpg",
+          "images/卡皮巴拉啪啪圈1.jpg",
+          "images/卡皮巴拉啪啪圈2.jpg",
+        ],
+        category: "卡皮巴拉",
+        subCategory: null,
+        description: "300peças",
         features: [
         
         ],
         tags: []
       }
+      
     ];
 
     // 渲染产品列表
